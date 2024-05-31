@@ -1,0 +1,25 @@
+*{
+
+}
+main{
+    width: 400px;
+}
+.jatekter{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+}
+
+.jatekter>div{
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: solid 5px black;
+    background-color: rgb(19, 19, 19);
+}
+
+.felkapcs{
+    background-color: rgb(255, 238, 0) !important;
+    box-shadow: 0 0 50px rgb(255, 238, 0);
+    border: inherit !important;
+    border-color: transparent;
+}
